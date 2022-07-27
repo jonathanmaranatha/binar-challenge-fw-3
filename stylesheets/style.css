@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
+
+h1 {
+    font: bold 80px 'Bebas Neue', cursive;
+    color: white;
+}
+
+h2 {
+    font: bold 36px 'Bebas Neue', cursive;
+}
+
+h3 {
+    font: bold 24px 'Bebas Neue', cursive;
+    color: white;
+}
+
+body {
+    font: normal 18px 'Open Sans', sans-serif;
+}
+
+.sub-text {
+    font: normal 14px 'Open Sans', sans-serif;
+    color: white;
+    opacity: 50%;
+}
+
+button {
+    font: bold 16px 'Open Sans', sans-serif;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+nav,
+li {
+    font: bold 12px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+} */
+
+.vl {
+    border-left: 3px solid white;
+    height: 85px;
+    position: relative;
+    left: 6px;
+    top: -5px;
+}
+
+.card {
+    width: 28rem;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-hollow {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.features-title {
+    font: normal 24px 'Bebas Neue', cursive;
+    color: #FFB548;
+}
+
+.cell-title {
+    font-size: 24px;
+    color: #FFB548;
+}
+
+.cell-text,
+.features-text {
+    font: normal 18px 'Open Sans', sans-serif;
+    color: white;
+}
+
+.small-text {
+    font: normal 12px 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel-indicators>button {
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/switch-left.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/switch-right.svg);
+}
+
+.bg-image {
+    /* position: relative; */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+div.main {
+    background-image: url(../assets/main-bg.jpg);
+}
+
+div.games {
+    background-image: url(../assets/the-games-bg.jpg);
+}
+
+div.features {
+    background-image: url(../assets/features.jpg);
+}
+
+div.requirements {
+    background-image: url(../assets/requirements.png);
+}
+
+div.top-score {
+    background-image: url(../assets/top-score-bg.png);
+}
+
+div.newsletter {
+    background-image: url(../assets/newsletter.png);
+}
